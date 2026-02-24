@@ -1,0 +1,4 @@
+Multiplication is one of the strategies by which we can gain information in various tasks, such as combinatorics. Superficially speaking, multiplication involves adding a number by itself however many times specified.
+Sample Problem: A student is creating a password that must have 3 characters: first a letter (A–Z), then a digit (0–9), then a special character chosen from !, @, #, $, %. How many possible passwords are there?
+Solution: Since each choice for each position is independent, it follows that we multiply the choices for the letter by the choices for the digit by the choices for the special character.
+So, (26)(10)(5) = 1300 possible passwords.
